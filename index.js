@@ -5,3 +5,15 @@ function iterativeLog(arr) {
     idx++;
   })
 }
+
+function iterate(call) {
+  arr = [" ", " ", " "];
+
+  arr.forEach(call);
+
+  return arr;
+}
+
+function doToArray(arr, call) {
+  arr.forEach(call)
+}
